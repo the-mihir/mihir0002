@@ -1,0 +1,99 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background:url(../IMG/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:500px;
+    height: 620px;
+    margin:20px auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+    
+}
+.login-section{
+    padding:25px;
+   
+}
+.login-section img{
+    margin: 0 auto;
+    display:block;
+    width: 178px;
+    border-radius: 20px;
+}
+.login-section h2{
+    text-align: center;
+    color:black;
+    font-size:33px ;
+    margin:10px auto;
+    text-transform: unset;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.form-section {
+    width: 90%;
+    height: 20px;
+    padding: 15px;
+    margin:10px   auto ;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    outline:none;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btn{
+    margin:20px 75% auto ;
+    display: block;
+    padding: 8px;
+    width: 100px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: rgb(173, 255, 47);
+    color:rgb(0, 0, 0);
+    background-color:rgb(173, 255, 47) ;  
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-two{
+    margin: 1px 10px  ;
+    padding: 7px;
+    text-decoration: none;
+    border-radius:12px;
+    outline:none;
+    color:black;
+    background-color:whitesmoke;
+    border-color:violet;
+    font-family: 'Roboto';
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+    color:whitesmoke;
+    background-color:black;
+    border-color: black;
+    outline: none;
+}
+
+.btn-two:hover{
+    color:black;
+    background-color:whitesmoke;
+    outline: none;
+}
